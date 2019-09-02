@@ -7,11 +7,11 @@ class Func < Formula
 
   if OS.mac?
     url "https://github.com/spring-media/func/releases/download/v0.0.2/func_0.0.2_darwin_amd64.tar.gz"
-    sha256 "d0719f65196d7ed27f1858be72c884112e742e36941ef11b58e8e302c6a0a80b"
+    sha256 "d8a364fd3c7e1c834b013e1ad5b7bc87e695cc80eba7d4072298bec3481037a3"
   elsif OS.linux?
     if Hardware::CPU.intel?
       url "https://github.com/spring-media/func/releases/download/v0.0.2/func_0.0.2_linux_amd64.tar.gz"
-      sha256 "941b3489f8189306a2a37b6208241a7d96aa08f8ec44e3576afa7f51715e8082"
+      sha256 "68594213e4dc6804aaef26192fcd04045b7fb1ca5fc19c48c17d10c1b9b7a902"
     end
   end
 
