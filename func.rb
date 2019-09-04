@@ -2,16 +2,16 @@
 class Func < Formula
   desc ""
   homepage ""
-  version "0.0.3"
+  version "0.0.4"
   bottle :unneeded
 
   if OS.mac?
-    url "https://github.com/spring-media/func/releases/download/v0.0.3/func_0.0.3_darwin_amd64.tar.gz"
-    sha256 "325c78afe7f0199e2c77c82d5ab45926fd5ccf22bc1d65b1382fe5434eab1935"
+    url "https://github.com/spring-media/func/releases/download/v0.0.4/func_0.0.4_darwin_amd64.tar.gz"
+    sha256 "dddd6b5d5c7e01812a6dd2919e90ec9862a6e9d30276b9de0d70622d66f38dcb"
   elsif OS.linux?
     if Hardware::CPU.intel?
-      url "https://github.com/spring-media/func/releases/download/v0.0.3/func_0.0.3_linux_amd64.tar.gz"
-      sha256 "564603afaa454e74a404f0089289b934cd14137f9a5d9472c581a1debb2b0de8"
+      url "https://github.com/spring-media/func/releases/download/v0.0.4/func_0.0.4_linux_amd64.tar.gz"
+      sha256 "70091a1aaac696b12a0353639d7d1839168b7e61739545a4956713e934d5531b"
     end
   end
 
